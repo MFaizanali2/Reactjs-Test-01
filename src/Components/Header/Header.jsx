@@ -1,11 +1,11 @@
-import Button from '../common/Button/Button'
+import Button from '../Common/Button'
 import './Header.css';
 
 const Header = () => {
     return (
         <div className='header-wrapper'>
             <div className="logo">
-                <h1>Foodes</h1>
+                <img src="/assets/img/logo.svg" alt="" />
             </div>
             <div className="navbar">
                 <ul>
@@ -16,7 +16,7 @@ const Header = () => {
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#">Product</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -24,7 +24,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="btn_wrapper">
-                <Button text="Order Now" />
+                <Button />
 
 
             </div>

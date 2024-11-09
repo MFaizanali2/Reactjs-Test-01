@@ -1,14 +1,21 @@
+
 .header-wrapper {
     display: flex;
-    justify-content: space-between;
-    max-width: 968px;
-    margin: 30px auto;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
     align-items: center;
+    background-color: antiquewhite;
 }
-
 .header-wrapper ul {
     display: flex;
-    background-color: aqua;
-    gap: 10px;
+    /* background-color: aqua; */
     list-style-type: none;
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li {
+    font-size: 20px;
 }

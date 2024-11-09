@@ -1,17 +1,19 @@
 import React from "react";
-import Index from "./Router/Index.jsx";
-import { Route, Routes } from "react-router";
+// import Index from "./Router/Index.jsx";
+// import { Route, Routes } from "react-router";
+import Home from "./Components/Pages/Home.jsx";
 
 const App = () => {
-  const routes = Index();
+  // const routes = Index();
   return (
     <div>
       {/* <Header/> */}
-      <Routes>
+      {/* <Routes>
         {routes.map(({ path, element }, key) => (
           <Route key={key} path={path} element={element} />
         ))}
-      </Routes>
+      </Routes> */}
+      <Home />
     </div>
   )
 }

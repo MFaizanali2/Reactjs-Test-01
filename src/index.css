@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    max-width: 1250px;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto ;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #504e4e;
+    border-radius: 5px;
+
 }
