@@ -1,17 +1,47 @@
-import { bannerData } from "../utils/constant/BannerData"
-import Button from "./common/Button";
+import { bannerData } from '../utils/constant/BannerData'
+// import Button from '../Common/Button';
+import React from "react";
+import Slider from "react-slick";
 
 const Banner = () => {
-    const {title ,subtitle, images} = bannerData;
-    
+  let settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    pauseOnHover: false,
+  };
   return (
-    <div>
-      <div className="slider-container" >
-        <img src={images || "/assets/img/defaultImg.png" } alt="Placeholder"  onError={(e) => e.target.src = "/assets/img/defaultImg.png"}/>
-        <h1 className="text-3xl font-semibold">{title} ihhjsfdh</h1>
-        <p className="text-lg">{subtitle}hdsfjkhkhsdjk</p>
-        <Button text="Go to Collection"/>
-      </div>
+    <div className="slider-container px-10 rounded-xl">
+      <Slider {...settings}>
+        {bannerData.slice(0, 3).map((item, key) => (
+          <div key={key} className=" h-[800px]">
+            <img className=" rounded-xl object-cover" src={item.images} alt="banner logo" />
+          </div>
+        ))}
+        {/* <div>
+          <img src="/assets/" alt="" />
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div> */}
+      </Slider>
     </div>
   )
 }
