@@ -23,9 +23,9 @@
     width: 100%;
 }
 .banner{
-    width: 90%;
+    width: 95%;
     height: auto;
-    margin: 20px 5%;
+    margin: 20px 2.5%;
 }
 .banner img{
     width: 100%;
@@ -39,10 +39,10 @@
     justify-content: center;
 }
 .img-1{
-    width: 40%;
+    width: 47%;
     height: auto;
 }
 .img-2{
-    width: 40%;
+    width: 47%;
     height: auto;
 }
