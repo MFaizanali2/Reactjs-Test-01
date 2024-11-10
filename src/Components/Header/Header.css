@@ -5,7 +5,7 @@
     width: 100%;
     padding: 10px;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #fff;
 }
 .header-wrapper ul {
     display: flex;
@@ -18,4 +18,31 @@
 }
 .navbar ul li {
     font-size: 20px;
+}
+.slider-container{
+    width: 100%;
+}
+.banner{
+    width: 90%;
+    height: auto;
+    margin: 20px 5%;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.Double{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.img-1{
+    width: 40%;
+    height: auto;
+}
+.img-2{
+    width: 40%;
+    height: auto;
 }
