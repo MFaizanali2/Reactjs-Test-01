@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import axios from "axios";
 
 const Feature = () => {
     var settings = {
@@ -37,16 +38,17 @@ const Feature = () => {
         ]
     };
     return (
-        
+        <>
         <div className='feature'>
-            <h1>Feature Categories</h1>
-            <div className="slider-container">
-        <Slider {...settings}>
-            
-        </Slider>
-        </div>
+            <h1>Feature Categories</h1>           
         </div>
         
+        const getData = async () =>{
+                try{
+
+                }catch
+            }
+        </>
     )
 }
 
