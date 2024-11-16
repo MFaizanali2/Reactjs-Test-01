@@ -42,14 +42,9 @@ const Feature = () => {
         <div className='feature'>
             <h1>Feature Categories</h1>           
         </div>
-        
-        const getData = async () =>{
-                try{
-
-                }catch
-            }
         </>
     )
 }
+
 
 export default Feature
