@@ -3,6 +3,8 @@ import Header from '../Header/Header'
 import Banner from '../Header/Banner'
 import DualBanner from '../Header/DualBanner'
 import Feature from '../Context/Feature'
+import ThirdBanner from '../Header/ThirdBanner'
+import NewArrival from '../Header/NewArrival'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Banner />
       <DualBanner />
       <Feature />
+      <ThirdBanner />
+      <NewArrival />
     </div>
   )
 }
